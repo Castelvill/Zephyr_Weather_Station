@@ -2,6 +2,12 @@
 
 Weather station app based on Zephyr Real-Time Operating System (RTOS) and Arduino Nano 33 BLE prototyping board.
 
+# Authors
+
+Mateusz Matkowski
+
+Mikołaj Starzak
+
 ## Achieved Goals
 
 - Measure temperature and pressure with sensors connected to Arduino Nano 33 BLE.
