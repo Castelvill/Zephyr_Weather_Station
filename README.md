@@ -14,6 +14,20 @@ Mikołaj Starzak
 - Use Zephyr system to send data from sensors through the Bluetooth advertisement.
 - Read temerature and pressure measurements in nRFconnect android app.
 
+## Used Devices
+
+- Arduino Nano 33 BLE.
+- BMP280 - temperature and pressure sensor.
+- Android Smartphone.
+- PC - flashing Arduino with a USB cable.
+
+## Used Software, Protocols and Technology
+
+- Zephyr - Real-Time Operating System.
+- nRF Connect - android app for Bluetooth connection monitoring.
+- I2C - communication protocol for connecting BMP280 sensor to the Arduino.
+- Bluetooth BLE - Bluetooth Low Energy wireless network.
+
 ## Build Zephyr
 
     west build -p always -b arduino nano 33 ble <path-to-zephyr-root> -DDTC OVERLAY FILE=”arduino i2c.overlay”
